@@ -1,10 +1,3 @@
-/*
-* mytraced
-*
-* Maurice J. Bach 's source.
-* "THE DESIGN OF THE UNIX OPERATING SYSTEM"
-*/
-
 #include <sys/ptrace.h>
 #include <sys/user.h>
 #include <asm/ptrace.h>
