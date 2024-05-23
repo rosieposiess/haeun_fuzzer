@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
 /*
 	for(i=0;i<32;i++)
 	{
-		printf("data[%d]:%d\n",i,ptrace(PTRACE_PEEKDATA,pid,addr,0));		
+		printf("data[%d]:%d\n",i,ptrace(PTRACE_PEEKDATA,pid,addr,0));
 		addr+=sizeof(int);
 	}
 */
