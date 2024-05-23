@@ -6,12 +6,12 @@
 #include <string.h>
 #include <ctype.h>
 
+int data[32]={0,};
 int main() {
-	int data[32]={0,};
         int i;
         for( i=0; i<32; i++)
                 printf("data[%d] = %d\n", i, data[i]);
 
-        printf("ptrace data addr 0x%x\n", data);
+        printf("ptrace data addr 0x%llx\n", data);
         return 0;
 }
