@@ -9,6 +9,7 @@
 int data[32]={0,};
 int main() {
         int i;
+	printf("I'm target\n");
         for( i=0; i<32; i++)
                 printf("data[%d] = %d\n", i, data[i]);
 
